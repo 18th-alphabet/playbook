@@ -1,0 +1,243 @@
+{
+    "id": 0,
+    "identifier": "4ffc5aa1-f82f-49cc-8df5-6294c01d5cdd",
+    "version": "1",
+    "isEnabled": true,
+    "isDebugMode": false,
+    "name": "New Playbook",
+    "creator": "f5abbffa-cde1-4e14-83b4-a7479cc06d4d",
+    "modifiedBy": "f5abbffa-cde1-4e14-83b4-a7479cc06d4d",
+    "priority": 2,
+    "description": "",
+    "environments": [
+        "Default Environment"
+    ],
+    "categoryName": "Default",
+    "categoryId": 1,
+    "originalPlaybookIdentifier": "4ffc5aa1-f82f-49cc-8df5-6294c01d5cdd",
+    "creationTimeUnixTimeInMs": 1716826425460,
+    "modificationTimeUnixTimeInMs": 1716826425460,
+    "trigger": {
+        "id": 0,
+        "identifier": "e43f0b3d-36bf-4908-a73e-ea9cc787bd8a",
+        "type": 8,
+        "logicalOperator": 0,
+        "conditions": [
+            {
+                "fieldName": "",
+                "value": "",
+                "matchType": 0
+            }
+        ]
+    },
+    "steps": [
+        {
+            "parallelActions": [],
+            "identifier": "7b56b97a-3ddf-4a50-bff1-b77269d6cfc9",
+            "originalStepIdentifier": "7b56b97a-3ddf-4a50-bff1-b77269d6cfc9",
+            "isAutomatic": false,
+            "isSkippable": false,
+            "instanceName": "General Question_1",
+            "name": "General Question",
+            "integration": "Flow",
+            "description": "",
+            "actionProvider": "Flow",
+            "actionName": "GeneralQuestion",
+            "type": 0,
+            "parameters": [
+                {
+                    "name": "AssignedUsers",
+                    "value": null,
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "HasApprovalLink",
+                    "value": null,
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "MessageToAssignee",
+                    "value": null,
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "PendingActionTimeout",
+                    "value": null,
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "Question",
+                    "value": "How are you",
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "SelectedScopeName",
+                    "value": null,
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                }
+            ],
+            "autoSkipOnFailure": false,
+            "isDebugMockData": false,
+            "debugData": null,
+            "parentStepContainerId": null,
+            "workflowIdentifier": "4ffc5aa1-f82f-49cc-8df5-6294c01d5cdd",
+            "id": 0,
+            "creationTimeUnixTimeInMs": 1716826425460,
+            "modificationTimeUnixTimeInMs": 1716826425460,
+            "additionalProperties": {}
+        }
+    ],
+    "stepsRelations": [],
+    "templateName": null,
+    "playbookType": 0,
+    "debugData": {
+        "debugBaseAlertId": null,
+        "debugAlertId": null
+    },
+    "entityAccessLevel": 2,
+    "defaultAccessLevel": 2,
+    "permissions": [],
+    "overviewTemplates": [
+        {
+            "id": 3,
+            "identifier": "29e5d1a4-8bea-4001-9f25-246a0420b6b4",
+            "name": "hahahaha",
+            "creator": null,
+            "playbookIdentifier": "4ffc5aa1-f82f-49cc-8df5-6294c01d5cdd",
+            "type": 0,
+            "widgets": [
+                {
+                    "metadata": {
+                        "id": 16,
+                        "identifier": "073bf168-1e64-4b13-b8f1-15dfd238a7af",
+                        "title": "Free Text",
+                        "width": 2,
+                        "order": 1,
+                        "description": "",
+                        "type": 8,
+                        "templateIdentifier": "29e5d1a4-8bea-4001-9f25-246a0420b6b4",
+                        "predefinedWidgetTemplateIdentifier": null,
+                        "actionIdentifier": null,
+                        "stepIdentifier": null,
+                        "stepIntegration": null,
+                        "blockStepIdentifier": null,
+                        "blockStepInstanceName": null,
+                        "presentIfEmpty": false,
+                        "conditionsGroup": {
+                            "conditions": [],
+                            "logicalOperator": 0
+                        },
+                        "integrationName": "",
+                        "isSupported": null
+                    },
+                    "config": {
+                        "text": "testing it",
+                        "type": 8,
+                        "widgetDefinitionScope": 2
+                    }
+                },
+                {
+                    "metadata": {
+                        "id": 17,
+                        "identifier": "34e024d5-d362-4b04-afb4-0c27466b3b16",
+                        "title": "Entities Highlights",
+                        "width": 2,
+                        "order": 2,
+                        "description": "This widget displays the highlighted fields for each entity.",
+                        "type": 10,
+                        "templateIdentifier": "29e5d1a4-8bea-4001-9f25-246a0420b6b4",
+                        "predefinedWidgetTemplateIdentifier": null,
+                        "actionIdentifier": null,
+                        "stepIdentifier": null,
+                        "stepIntegration": null,
+                        "blockStepIdentifier": null,
+                        "blockStepInstanceName": null,
+                        "presentIfEmpty": false,
+                        "conditionsGroup": {
+                            "conditions": [],
+                            "logicalOperator": 0
+                        },
+                        "integrationName": "",
+                        "isSupported": null
+                    },
+                    "config": {
+                        "highlightFieldConfigs": [],
+                        "targetScope": 0,
+                        "type": 10,
+                        "widgetDefinitionScope": 2
+                    }
+                },
+                {
+                    "metadata": {
+                        "id": 18,
+                        "identifier": "80dbe8fe-3cb6-4e3b-86ad-9fba56a1c2cd",
+                        "title": "Insights",
+                        "width": 2,
+                        "order": 3,
+                        "description": "This widget contains all the Insights from the Playbook Insights actions, general Insights and any other Insights you have added. They will be presented in HTML format",
+                        "type": 15,
+                        "templateIdentifier": "29e5d1a4-8bea-4001-9f25-246a0420b6b4",
+                        "predefinedWidgetTemplateIdentifier": null,
+                        "actionIdentifier": null,
+                        "stepIdentifier": null,
+                        "stepIntegration": null,
+                        "blockStepIdentifier": null,
+                        "blockStepInstanceName": null,
+                        "presentIfEmpty": false,
+                        "conditionsGroup": {
+                            "conditions": [],
+                            "logicalOperator": 0
+                        },
+                        "integrationName": "",
+                        "isSupported": null
+                    },
+                    "config": {
+                        "insights": null,
+                        "type": 15,
+                        "widgetDefinitionScope": 2
+                    }
+                }
+            ],
+            "roles": [
+                7
+            ],
+            "creationTimeUnixTimeInMs": 1716826425460
+        }
+    ]
+}
