@@ -1,14 +1,14 @@
 {
     "id": 0,
-    "identifier": "4ffc5aa1-f82f-49cc-8df5-6294c01d5cdd",
-    "version": "1",
-    "isEnabled": true,
+    "identifier": "00a97585-1dfb-4974-b560-32def5ede038",
+    "version": "0",
+    "isEnabled": false,
     "isDebugMode": false,
     "name": "New Playbook",
     "creator": "f5abbffa-cde1-4e14-83b4-a7479cc06d4d",
     "modifiedBy": "f5abbffa-cde1-4e14-83b4-a7479cc06d4d",
     "priority": 2,
-    "description": "",
+    "description": "Adding some notes",
     "environments": [
         "Default Environment"
     ],
@@ -16,10 +16,10 @@
     "categoryId": 1,
     "originalPlaybookIdentifier": "4ffc5aa1-f82f-49cc-8df5-6294c01d5cdd",
     "creationTimeUnixTimeInMs": 1716826425460,
-    "modificationTimeUnixTimeInMs": 1716826425460,
+    "modificationTimeUnixTimeInMs": 1716902586513,
     "trigger": {
         "id": 0,
-        "identifier": "e43f0b3d-36bf-4908-a73e-ea9cc787bd8a",
+        "identifier": "269ac9b2-e37e-4374-ae5a-9137f01447eb",
         "type": 8,
         "logicalOperator": 0,
         "conditions": [
@@ -33,7 +33,7 @@
     "steps": [
         {
             "parallelActions": [],
-            "identifier": "7b56b97a-3ddf-4a50-bff1-b77269d6cfc9",
+            "identifier": "185bda05-068d-49ea-953f-2365266858e5",
             "originalStepIdentifier": "7b56b97a-3ddf-4a50-bff1-b77269d6cfc9",
             "isAutomatic": false,
             "isSkippable": false,
@@ -116,10 +116,10 @@
             "isDebugMockData": false,
             "debugData": null,
             "parentStepContainerId": null,
-            "workflowIdentifier": "4ffc5aa1-f82f-49cc-8df5-6294c01d5cdd",
+            "workflowIdentifier": "00a97585-1dfb-4974-b560-32def5ede038",
             "id": 0,
-            "creationTimeUnixTimeInMs": 1716826425460,
-            "modificationTimeUnixTimeInMs": 1716826425460,
+            "creationTimeUnixTimeInMs": 1716902586417,
+            "modificationTimeUnixTimeInMs": 1716902586513,
             "additionalProperties": {}
         }
     ],
@@ -135,23 +135,23 @@
     "permissions": [],
     "overviewTemplates": [
         {
-            "id": 3,
-            "identifier": "29e5d1a4-8bea-4001-9f25-246a0420b6b4",
+            "id": 4,
+            "identifier": "444f1b3a-7048-4c1a-b2bf-be2b63519aa9",
             "name": "hahahaha",
             "creator": null,
-            "playbookIdentifier": "4ffc5aa1-f82f-49cc-8df5-6294c01d5cdd",
+            "playbookIdentifier": "00a97585-1dfb-4974-b560-32def5ede038",
             "type": 0,
             "widgets": [
                 {
                     "metadata": {
-                        "id": 16,
-                        "identifier": "073bf168-1e64-4b13-b8f1-15dfd238a7af",
+                        "id": 19,
+                        "identifier": "2dea6b08-df21-43e1-ba50-17e899160905",
                         "title": "Free Text",
                         "width": 2,
                         "order": 1,
                         "description": "",
                         "type": 8,
-                        "templateIdentifier": "29e5d1a4-8bea-4001-9f25-246a0420b6b4",
+                        "templateIdentifier": "444f1b3a-7048-4c1a-b2bf-be2b63519aa9",
                         "predefinedWidgetTemplateIdentifier": null,
                         "actionIdentifier": null,
                         "stepIdentifier": null,
@@ -174,14 +174,14 @@
                 },
                 {
                     "metadata": {
-                        "id": 17,
-                        "identifier": "34e024d5-d362-4b04-afb4-0c27466b3b16",
+                        "id": 20,
+                        "identifier": "e9276dcc-5ae4-42be-b24a-9671e58c6b8b",
                         "title": "Entities Highlights",
                         "width": 2,
                         "order": 2,
                         "description": "This widget displays the highlighted fields for each entity.",
                         "type": 10,
-                        "templateIdentifier": "29e5d1a4-8bea-4001-9f25-246a0420b6b4",
+                        "templateIdentifier": "444f1b3a-7048-4c1a-b2bf-be2b63519aa9",
                         "predefinedWidgetTemplateIdentifier": null,
                         "actionIdentifier": null,
                         "stepIdentifier": null,
@@ -205,14 +205,14 @@
                 },
                 {
                     "metadata": {
-                        "id": 18,
-                        "identifier": "80dbe8fe-3cb6-4e3b-86ad-9fba56a1c2cd",
+                        "id": 21,
+                        "identifier": "0db06424-fd1a-4c1f-afad-b6af5bab7b21",
                         "title": "Insights",
                         "width": 2,
                         "order": 3,
                         "description": "This widget contains all the Insights from the Playbook Insights actions, general Insights and any other Insights you have added. They will be presented in HTML format",
                         "type": 15,
-                        "templateIdentifier": "29e5d1a4-8bea-4001-9f25-246a0420b6b4",
+                        "templateIdentifier": "444f1b3a-7048-4c1a-b2bf-be2b63519aa9",
                         "predefinedWidgetTemplateIdentifier": null,
                         "actionIdentifier": null,
                         "stepIdentifier": null,
@@ -237,7 +237,7 @@
             "roles": [
                 7
             ],
-            "creationTimeUnixTimeInMs": 1716826425460
+            "creationTimeUnixTimeInMs": 1716879279443
         }
     ]
 }
