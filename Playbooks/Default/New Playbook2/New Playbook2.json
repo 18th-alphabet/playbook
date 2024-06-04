@@ -1,0 +1,45 @@
+{
+    "id": 0,
+    "identifier": "f8b5c235-09b3-4205-a55a-6df205b1a206",
+    "version": "0",
+    "isEnabled": false,
+    "isDebugMode": false,
+    "name": "New Playbook2",
+    "creator": "f5abbffa-cde1-4e14-83b4-a7479cc06d4d",
+    "modifiedBy": "Siemplify automation",
+    "priority": 2,
+    "description": "Adding some notes",
+    "environments": [
+        "Default Environment"
+    ],
+    "categoryName": "Default",
+    "categoryId": 1,
+    "originalPlaybookIdentifier": "f8b5c235-09b3-4205-a55a-6df205b1a206",
+    "creationTimeUnixTimeInMs": 1717424147250,
+    "modificationTimeUnixTimeInMs": 1717424147250,
+    "trigger": {
+        "id": 0,
+        "identifier": "60bb6f43-3d0d-487e-ab79-d0e2e735e18d",
+        "type": 8,
+        "logicalOperator": 0,
+        "conditions": [
+            {
+                "fieldName": "",
+                "value": "",
+                "matchType": 0
+            }
+        ]
+    },
+    "steps": [],
+    "stepsRelations": [],
+    "templateName": null,
+    "playbookType": 0,
+    "debugData": {
+        "debugBaseAlertId": null,
+        "debugAlertId": null
+    },
+    "entityAccessLevel": 2,
+    "defaultAccessLevel": 2,
+    "permissions": [],
+    "overviewTemplates": []
+}
